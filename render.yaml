@@ -1,6 +1,4 @@
 services:
   - type: web
     name: ecom-backend
-    env: java
-    buildCommand: "./mvnw clean install"
-    startCommand: "java -jar target/*.jar"
+    env: docker
